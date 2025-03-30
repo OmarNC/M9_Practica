@@ -90,23 +90,23 @@ Las siguientes figuras muestran la petición en postman.
 <image src="/images/actualizarVuelo_ok_postman.png" alt="Petición y Respuesta en postman cuando se modifica 
 un registro con el método PUT">
 
-<strong> Figura 8</strong> Petición y Respuesta en postman cuando se modifica un registro con el método PUT.
+<strong> Figura 10</strong> Petición y Respuesta en postman cuando se modifica un registro con el método PUT.
 
 <image src="/images/actualizarVuelo_notFound_postman.png" alt="Petición y Respuesta en postman cuando 
 se desea modificar un registro no existente (PUT)">
 
-<strong> Figura 9</strong> Petición y Respuesta en postman cuando 
+<strong> Figura 11</strong> Petición y Respuesta en postman cuando 
 se desea modificar un registro no existente (PUT).
 
 <image src="/images/actualizarVuelo_badRequest_postman.png" alt="Petición y Respuesta en postman cuando 
 se desea modificar un registro sin el envio del objeto JSON en body">
 
-<strong> Figura 10</strong>Petición y Respuesta en postman cuando 
+<strong> Figura 12</strong>Petición y Respuesta en postman cuando 
 se desea modificar un registro sin el envio del objeto JSON en body.
 
 <image src="/images/actualizarVuelo.png" alt="Código que implementa el método PUT">
 
-<strong> Figura 11</strong> Código que implementa el método PUT.
+<strong> Figura 13</strong> Código que implementa el método PUT.
 
 ### Modificación parcial de un registro (PATCH)
 
@@ -118,23 +118,23 @@ Las siguientes figuras muestran la petición en postman .
 <image src="/images/modificarVuelo_ok_postman.png" alt="Petición y Respuesta en postman cuando se modifica
 un registro con el método PATCH">
 
-<strong> Figura 12</strong> Petición y Respuesta en postman cuando se modifica un registro con el método PATCH.
+<strong> Figura 14</strong> Petición y Respuesta en postman cuando se modifica un registro con el método PATCH.
 
 <image src="/images/modificarVuelo_notFound_postman.png" alt="Petición y Respuesta en postman cuando
 se desea modificar un registro no existente (PATCH)">
 
-<strong> Figura 13</strong> Petición y Respuesta en postman cuando 
+<strong> Figura 15</strong> Petición y Respuesta en postman cuando 
 se desea modificar un registro no existente (PATCH).
 
 <image src="/images/modificarVuelo_badRequest_postman.png" alt="Petición y Respuesta en postman cuando
 se desea modificar un registro sin el envio del objeto JSON en body">
 
-<strong> Figura 14</strong> Petición y Respuesta en postman cuando 
+<strong> Figura 16</strong> Petición y Respuesta en postman cuando 
 se desea modificar un registro sin el envio del objeto JSON en body.
 
 <image src="/images/actualizarVuelo.png" alt="Código que implementa el método PATCH">
 
-<strong> Figura 15</strong> Código que implementa el método PATCH.
+<strong> Figura 17</strong> Código que implementa el método PATCH.
 
 
 
@@ -148,18 +148,18 @@ Las siguientes figuras muestran la petición en postman.
 <image src="/images/deleteVuelo_ok_postman.png" alt="Petición y Respuesta en postman cuando se borra
 un registro con el método DELETE">
 
-<strong> Figura 16</strong> Petición y Respuesta en postman cuando se borra
+<strong> Figura 18</strong> Petición y Respuesta en postman cuando se borra
 un registro con el método DELETE.
 
 <image src="/images/deleteVuelo_notFound_postman.png" alt="Petición y Respuesta en postman cuando
 se desea borrar un registro no existente (DELETE)">
 
-<strong> Figura 17</strong> Petición y Respuesta en postman cuando
+<strong> Figura 19</strong> Petición y Respuesta en postman cuando
 se desea borrar un registro no existente (DELETE).
 
 <image src="/images/deleteVuelo.png" alt="Código que implementa el método DELETE">
 
-<strong> Figura 18</strong> Código que implementa el método DELETE.
+<strong> Figura 20</strong> Código que implementa el método DELETE.
 
 
 
