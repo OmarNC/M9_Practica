@@ -129,10 +129,10 @@ se desea modificar un registro no existente (PATCH).
 <image src="/images/modificarVuelo_badRequest_postman.png" alt="Petición y Respuesta en postman cuando
 se desea modificar un registro sin el envio del objeto JSON en body">
 
-<strong> Figura 14</strong>Petición y Respuesta en postman cuando 
+<strong> Figura 14</strong> Petición y Respuesta en postman cuando 
 se desea modificar un registro sin el envio del objeto JSON en body.
 
-<image src="/images/agregarVuelo.png" alt="Código que implementa el método PATCH">
+<image src="/images/actualizarVuelo.png" alt="Código que implementa el método PATCH">
 
 <strong> Figura 15</strong> Código que implementa el método PATCH.
 
