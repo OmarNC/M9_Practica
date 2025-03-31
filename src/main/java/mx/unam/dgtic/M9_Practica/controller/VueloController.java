@@ -1,6 +1,7 @@
 package mx.unam.dgtic.M9_Practica.controller;
 
 
+import jakarta.validation.Valid;
 import mx.unam.dgtic.M9_Practica.modelo.Vuelo;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -50,7 +51,7 @@ public class VueloController {
     @PostMapping(value = "/",
             headers = {"Accept=application/json"},
             produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<Vuelo> agregarVuelo(@RequestBody Vuelo vuelo) {
+    public ResponseEntity<Vuelo> agregarVuelo(@Valid @RequestBody Vuelo vuelo) {
         //Buscar el siguiente id
         Integer id = 1;
         while(vuelos.containsKey(id)) id++;
@@ -63,7 +64,7 @@ public class VueloController {
     @PutMapping(value = "/{id}",
             headers = {"Accept=application/json"},
             produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<Vuelo> actualizarVuelo(@PathVariable Integer id, @RequestBody Vuelo vuelo) {
+    public ResponseEntity<Vuelo> actualizarVuelo(@PathVariable Integer id, @Valid @RequestBody Vuelo vuelo) {
         Vuelo vueloActual = vuelos.get(id);
 
         // 404 id no encontrada

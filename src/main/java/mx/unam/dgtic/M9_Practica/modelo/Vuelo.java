@@ -1,10 +1,20 @@
 package mx.unam.dgtic.M9_Practica.modelo;
 
 
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+
 public class Vuelo {
     private Integer id;
+    @NotBlank(message = "El origen no puede estan en blanco")
+    @NotNull(message = "El origen no debe estar vacio")
     private String origen;
+    @NotBlank(message = "El destino no puede estan en blanco")
+    @NotNull(message = "El destino no debe estar vacio")
     private String destino;
+
+    @NotBlank(message = "La hora de salida no puede estan en blanco")
+    @NotNull(message = "La hora de salida  no debe estar vacio")
     private String horaSalida;
 
     public Vuelo() { }
