@@ -19,7 +19,7 @@ las siguientes imagenes.
 <img src="/images/Vuelo.png" alt="Clase POJO  Vuelo"> <br>
 <strong> Figura 1</strong>  Clase POJO de Vuelo.
 
-<img src="/images/end_point_y_listadb.png" alt="EndPoint y lista de Vuelos para simular una base de datos"> <br>
+<img src="/images/end_point_y_listadb2.png" alt="EndPoint y lista de Vuelos para simular una base de datos"> <br>
 <strong>Figura 2 </strong>  Lista de vuelos con la colección HashMap.
 
 ### Creditos
